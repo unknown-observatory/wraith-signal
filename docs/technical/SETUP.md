@@ -30,3 +30,15 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Lint
+
+```bash
+npm run lint
+```
+
+## Notes
+
+- The current app is a frontend-only Vite project.
+- No backend setup exists yet.
+- If backend or networking work starts, update this file before implementation continues.
