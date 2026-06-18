@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { Group } from 'three';
 import { ThirdPersonFollowCamera } from '../game/camera/ThirdPersonFollowCamera';
 import { PlayerController } from '../game/player/PlayerController';
-import { PlaceholderInteractable } from './PlaceholderInteractable';
+import { PlaceholderCache } from './PlaceholderCache';
 
 export function PlayerMovementScene() {
   const playerRef = useRef<Group>(null);
@@ -20,7 +20,7 @@ export function PlayerMovementScene() {
 
       <gridHelper args={[24, 24, '#31415c', '#182234']} position={[0, 0.01, 0]} />
       <PlayerController playerRef={playerRef} />
-      <PlaceholderInteractable playerRef={playerRef} />
+      <PlaceholderCache playerRef={playerRef} />
       <ThirdPersonFollowCamera targetRef={playerRef} />
     </>
   );
