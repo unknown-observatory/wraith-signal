@@ -1,5 +1,5 @@
 import { useFrame } from '@react-three/fiber';
-import { useEffect, useRef } from 'react';
+import { type RefObject, useEffect, useRef } from 'react';
 import { Group, Vector3 } from 'three';
 
 const MOVEMENT_SPEED = 4;
@@ -17,8 +17,11 @@ const movementKeys = {
 
 type MovementDirection = (typeof movementKeys)[keyof typeof movementKeys];
 
-export function PlayerController() {
-  const playerRef = useRef<Group>(null);
+type PlayerControllerProps = {
+  playerRef: RefObject<Group | null>;
+};
+
+export function PlayerController({ playerRef }: PlayerControllerProps) {
   const activeDirectionsRef = useRef(new Set<MovementDirection>());
   const movementVectorRef = useRef(new Vector3());
 

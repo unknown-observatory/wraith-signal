@@ -39,7 +39,7 @@ Current implemented behavior:
 - The app mounts React in `src/main.tsx`.
 - The browser renders a minimal React Three Fiber scene.
 - A placeholder player object can move on a flat ground plane with keyboard input.
-- A temporary scene-view camera exists only to observe movement.
+- A smooth third-person camera follows the placeholder player.
 - No gameplay loop exists yet beyond movement validation.
 - No networking exists yet.
 - No backend exists yet.
