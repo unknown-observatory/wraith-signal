@@ -3,6 +3,7 @@ import { Group } from 'three';
 import { ThirdPersonFollowCamera } from '../game/camera/ThirdPersonFollowCamera';
 import { PlayerController } from '../game/player/PlayerController';
 import { PlaceholderCache } from './PlaceholderCache';
+import { PlaceholderWhiteStag } from './PlaceholderWhiteStag';
 
 export function PlayerMovementScene() {
   const playerRef = useRef<Group>(null);
@@ -21,6 +22,7 @@ export function PlayerMovementScene() {
       <gridHelper args={[24, 24, '#31415c', '#182234']} position={[0, 0.01, 0]} />
       <PlayerController playerRef={playerRef} />
       <PlaceholderCache playerRef={playerRef} />
+      <PlaceholderWhiteStag />
       <ThirdPersonFollowCamera targetRef={playerRef} />
     </>
   );

@@ -41,6 +41,7 @@ Current implemented behavior:
 - A placeholder player object can move on a flat ground plane with keyboard input.
 - A smooth third-person camera follows the placeholder player.
 - One placeholder cache can show a nearby prompt, react to an interaction key press, and be marked as found for the current session.
+- One static placeholder White Stag Wonder appears in the scene.
 - No gameplay loop exists yet beyond movement validation.
 - No networking exists yet.
 - No backend exists yet.
