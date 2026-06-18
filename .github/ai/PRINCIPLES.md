@@ -191,3 +191,18 @@ Protect the vision.
 The objective is not to make another game.
 
 The objective is to create moments that players remember years later.
+
+---
+
+# Backlog Principles
+
+## Preserve History
+
+If an Issue is fully satisfied by work completed through other Issues,
+documentation or repository evolution, close it instead of rewriting it.
+
+The GitHub history should reflect what actually happened.
+
+Avoid creating new work to replace work that has already been completed.
+
+Prefer closing obsolete Issues over rewriting them.

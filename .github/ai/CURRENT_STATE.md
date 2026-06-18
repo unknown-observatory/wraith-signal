@@ -8,11 +8,11 @@ This document describes the current reality of the repository. It must stay shor
 
 # Project Status
 
-Wraith Signal is in Repository Genesis / pre-implementation.
+Wraith Signal is in early MVP implementation.
 
 The repository has been consolidated into a modular documentation source of truth.
 
-No gameplay implementation has started.
+The first player movement implementation has started through GitHub Issue #2.
 
 Implementation work should start only after the Founder approves the next implementation phase or a specific GitHub Issue.
 
@@ -37,10 +37,10 @@ The codebase currently contains a minimal Vite + React + TypeScript application.
 Current implemented behavior:
 
 - The app mounts React in `src/main.tsx`.
-- The browser renders static `Wraith Signal` text.
-- No gameplay loop exists yet.
-- No Three.js scene exists yet.
-- No player controller exists yet.
+- The browser renders a minimal React Three Fiber scene.
+- A placeholder player object can move on a flat ground plane with keyboard input.
+- A temporary scene-view camera exists only to observe movement.
+- No gameplay loop exists yet beyond movement validation.
 - No networking exists yet.
 - No backend exists yet.
 

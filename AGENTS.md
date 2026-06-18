@@ -21,3 +21,11 @@ Once you have finished reading these documents:
 3. Implement only the requested scope.
 4. Never bypass the documented architecture or workflow.
 5. If required documentation is missing or incomplete, stop and propose the smallest documentation update before implementation.
+
+## Default Behaviour
+
+Never start implementing a GitHub Issue immediately.
+
+Always audit the Issue first.
+
+Implementation only begins after Founder approval.
