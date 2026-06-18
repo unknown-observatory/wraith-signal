@@ -40,6 +40,7 @@ Current implemented behavior:
 - The browser renders a minimal React Three Fiber scene.
 - A placeholder player object can move on a flat ground plane with keyboard input.
 - A smooth third-person camera follows the placeholder player.
+- One placeholder interactable can show a nearby prompt and react to an interaction key press.
 - No gameplay loop exists yet beyond movement validation.
 - No networking exists yet.
 - No backend exists yet.
