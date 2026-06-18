@@ -2,9 +2,8 @@
 name: Technical Task
 about: Technical implementation, refactoring or infrastructure work.
 title: ''
-labels: "✨ feature"
+labels: '✨ feature'
 assignees: ''
-
 ---
 
 ## Objective
