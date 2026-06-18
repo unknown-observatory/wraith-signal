@@ -28,6 +28,8 @@ npm run build
 npm run lint
 ```
 
+On Windows/Codex, use `npm.cmd` explicitly. See `docs/technical/SETUP.md`.
+
 ---
 
 # Current Status
